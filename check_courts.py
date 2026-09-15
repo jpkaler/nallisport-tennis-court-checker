@@ -20,7 +20,7 @@ import requests
 
 TARGET_WEEKDAYS = {0, 1, 3}   # Monday=0, Tuesday=1, Thursday=3 (datetime.weekday())
 TARGET_START_HOUR = 15        # 15:00
-DAYS_AHEAD = 7                # how many days forward to check
+DAYS_AHEAD = 14                # how many days forward to check
 
 SEEN_FILE = "seen_slots.json"  # tracks slots we've already emailed about
 
